@@ -1,6 +1,6 @@
 # sibdev
 
-Запустить сайт: https://croosle.github.io/sibdev/
+Запустить сайт: https://croosle.github.io/sibdev-vue/
 
 
 ## Project setup
