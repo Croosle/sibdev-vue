@@ -11,7 +11,7 @@
 
         <b-dropdown size="lg" variant="avatar" toggle-class="text-decoration-none" no-caret>
           <template v-slot:button-content>
-            <img src="sibdev-vue/img/avatar.png" alt="">
+            <img src="/sibdev/img/avatar.png" alt="">
           </template>
           <b-dropdown-item v-for="(user, index) in $store.state.users" :key="index" @click="setUser(user.id)">
             {{ user.name }} {{ user.surname }} {{ user.middlename }}
@@ -20,7 +20,7 @@
         </b-dropdown>
 
         <b-button variant="settings" class="ml-2" to="/settings">
-          <img src="sibdev-vue/svg/settings.svg" alt="" width="28">
+          <img src="/sibdev/svg/settings.svg" alt="" width="28">
         </b-button>
 
       </div>
