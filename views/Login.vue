@@ -40,7 +40,7 @@ export default {
     onSubmit () {
       const token = Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5)
 
-      this.$store.dispatch('setAuthToken', {token})
+      this.$store.dispatch('setAuthToken', token)
 
       this.$router.push('/')
     }

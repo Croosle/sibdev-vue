@@ -73,7 +73,7 @@ export const store = new Vuex.Store({
   },
 
   actions: {
-    setAuthToken (payload) {
+    setAuthToken (context, payload) {
       sessionStorage.setItem('authToken', payload)
     },
     removeAuthToken () {

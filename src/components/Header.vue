@@ -34,7 +34,7 @@
       logout () {
         this.$store.dispatch('removeAuthToken')
 
-
+        this.$router.push('/login')
       },
       setUser (id) {
         this.$store.commit('SET_USER', id)
