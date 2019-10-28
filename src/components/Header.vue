@@ -39,7 +39,7 @@
       setUser (id) {
         this.$store.commit('SET_USER', id)
 
-        this.$router.push('/')
+        this.$router.push('/', () => {})
       }
     }
   }
